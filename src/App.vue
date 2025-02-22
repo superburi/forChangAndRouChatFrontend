@@ -5,14 +5,21 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
+    
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="這是一個聊天小天地(初版)" />
 
       <nav>
+        <!--
         <RouterLink to="/">Home</RouterLink>
+        -->
+        <!--
         <RouterLink to="/about">About</RouterLink>
+        -->
+        <RouterLink to="/chat" >聊天室</RouterLink>
       </nav>
     </div>
   </header>
